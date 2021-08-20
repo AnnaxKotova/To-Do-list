@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+}
+
+.insertion{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+input#input-task{
+    width: 75%;
+}
+
+button#add-task-button{
+    background-color: darkslateblue;
+    color: darkseagreen;
+    padding: 1%;
+}
+
+li{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+/*this property will be added to the class only when checkbox is checked*/
+/*
+input[type=checkbox]:checked + .task {
+    text-decoration: line-through;
+}
+*/
+
+.taskErase{
+    text-decoration: line-through;
+}
